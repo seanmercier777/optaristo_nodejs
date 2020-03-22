@@ -188,7 +188,6 @@ app.get('http://localhost:8080/submit', (req, res) => {
 });
 
 
-
 app.get('/api', apiController.getApi);
 app.get('/api/lastfm', apiController.getLastfm);
 app.get('/api/nyt', apiController.getNewYorkTimes);
