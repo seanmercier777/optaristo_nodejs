@@ -182,10 +182,23 @@ app.get('/account/unlink/:provider',
  * API examples routes.
  */
 // sean API routes
-app.get('http://localhost:8080/submit', (req, res) => {
+app.get('/submit', (req, res) => {
   console.log(req.query.title);
   return res.finished;
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 app.get('/api', apiController.getApi);
